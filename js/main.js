@@ -7,6 +7,10 @@ function navShow() {
         menuList.classList.toggle('active')
     })
 
+    document.querySelectorAll('.menu-list').forEach(e => e.addEventListener('click', () => {
+        hamburgerMenu.classList.remove('active')
+        menuList.classList.remove('active')
+    }))
 
     window.addEventListener('resize', () => {
         if (window.innerWidth > 762) {
