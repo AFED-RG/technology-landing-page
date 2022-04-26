@@ -18,7 +18,7 @@ ul {
 }
 
 #landing-hero-page {
-    background-image: url('https://afed-rg.github.io/technology-landing-page/assets/images/technology-landing-page-bg.jpg');
+    background-image: url('../assets/images/technology-landing-page-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
